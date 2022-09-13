@@ -1,3 +1,9 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(16, 30px);
