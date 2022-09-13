@@ -8,10 +8,13 @@ body{
     display: grid;
     grid-template-columns: repeat(16, 30px);
     grid-template-rows: repeat(16, 30px);
-    
 }
 
 .square {
     background-color: gray;
     border-style: solid; 
+}
+
+.hovered {
+    background-color: black;
 }
