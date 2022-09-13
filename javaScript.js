@@ -1,4 +1,4 @@
-function changeToHovered(){
+function setHoveredClass(){
     this.setAttribute("class", "hovered")
 }
 
@@ -9,7 +9,7 @@ function createSquares(squareNumber){
             square.setAttribute("id", `square[${i},${j}]`);
             square.setAttribute("class", "square");
             
-            square.addEventListener('mouseover', changeToHovered);
+            square.addEventListener('mouseover', setHoveredClass);
             document.querySelector("div").appendChild(square);
         }
     }
